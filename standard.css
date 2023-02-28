@@ -1,6 +1,6 @@
 .standard {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: #f0eadd;
+    background-color: #e6e3dc;
     color: #000000;
     /* background-image: url(recypap1.jpg); */
     /* background-repeat: repeat */
@@ -65,10 +65,10 @@ body {
 }
 
 .redEmph { color: #dd5522; font-weight: bold }
-.inverse {  color: #f0eadd; background-color: #000000}
-.inverse a:link { color: #f0eadd }
-.inverse a:hover { color: #f0eadd }
-.inverse a:visited { color: #f0eadd }
+.inverse {  color: #e6e3dc; background-color: #000000}
+.inverse a:link { color: #e6e3dc }
+.inverse a:hover { color: #e6e3dc }
+.inverse a:visited { color: #e6e3dc }
 .callout { color: #000099; background-color: #FFFFFF}
 .emphasize { color: #000000; background-color: #f5cf98}
 .warning { color: #000000; background-color: #ffa090}
@@ -81,13 +81,13 @@ h2 { font-size: 150%; font-weight: bold }
 h3 { font-size: 110%; font-weight: bold }
 
 .inverseH1 {
-    color: #f0eadd;
+    color: #e6e3dc;
     background-color: #000000;
     font-size: 200%;
     font-weight: bold
 }
 .inverseH2 {
-    color: #f0eadd;
+    color: #e6e3dc;
     background-color: #000000;
     font-size: 150%; font-weight: bold
 }
