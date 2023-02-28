@@ -1,0 +1,239 @@
+.standard {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #faf3e3;
+    color: #000000;
+    /* background-image: url(recypap1.jpg); */
+    /* background-repeat: repeat */
+}
+
+body {
+    font-size: 100%;
+    line-height: 1.3;
+}
+
+.icon {
+    width: 16px;
+    height: 16px;
+    border: 0px;
+    margin-left: 3px;
+    vertical-align: middle;
+}
+
+/*
+.friendfeed.widget, div.friendfeed.widget div, div.friendfeed.widget span, div.friendfeed.widget img, div.friendfeed.widget table, div.friendfeed.widget tr, div.friendfeed.widget td { background-color: rgb(242,233,202) !important; color: #554433 !important; }
+
+
+.tinker .friendfeed.widget .feed .entry .likes span, .tinker .friendfeed.widget .feed .entry .comment .content, .tinker .friendfeed.widget .feed .entry .commentform, .tinker .friendfeed.widget .feed .entry .expandcomment, .tinker .friendfeed.widget .feed .entry .info, .tinker .friendfeed.widget .feed .entry .info span, .tinker .friendfeed.widget .feed .entry a.via, .tinker .friendfeed.widget .feed .entry a.via:visited {
+ display: none !important;
+}
+
+.friendfeed.widget .feed .entry .likes span, .friendfeed.widget .feed .entry .comment .content, .friendfeed.widget .feed .entry .commentform, .friendfeed.widget .feed .entry .expandcomment, .friendfeed.widget .feed .entry .info, .friendfeed.widget .feed .entry .info span, .friendfeed.widget .feed .entry a.via, .friendfeed.widget .feed .entry a.via:visited {
+ font-size: 75% !important;
+ color: #737373 !important;
+}
+
+.friendfeed.widget { border: 2px solid #8E7C6A !important; }
+
+.friendfeed .feed .cluster .body .summary  { display: none; }
+*/
+
+#friendfeed.widget, #friendfeed.widget div, #friendfeed.widget span, #friendfeed.widget a, #friendfeed.widget img, #friendfeed.widget table, #friendfeed.widget tr, #friendfeed.widget td, .gfg-entry, .gfg-root, .gf-result, .gfg-listentry-odd {
+		/*background-color: rgb(242,233,202) !important; */
+		background-color: transparent !important;
+}
+
+#friendfeed.widget .entry {
+		border-bottom-color: #222 !important;
+}
+
+.gfg-title {
+	background-color: transparent !important;
+	color: #000;
+	font-size: 115% !important;
+	font-weight: bold;
+	line-height: 1.4em; 
+}
+
+.gfg-title a {
+	font-size: 115% !important;
+	color: #00C !important;
+}
+
+.gfg-root, #friendfeed.widget {
+	border: 0px solid #437EC7 !important;  /* same as friendfeed */
+	width: 400px !important; 
+}
+
+.redEmph { color: #dd5522; font-weight: bold }
+.inverse {  color: #faf3e3; background-color: #000000}
+.inverse a:link { color: #faf3e3 }
+.inverse a:hover { color: #faf3e3 }
+.inverse a:visited { color: #faf3e3 }
+.callout { color: #000099; background-color: #FFFFFF}
+.emphasize { color: #000000; background-color: #f5cf98}
+.warning { color: #000000; background-color: #ffa090}
+.normalH1 { font-size: 200%; font-weight: bold}
+.normalH2 { font-size: 150%; font-weight: bold }
+.normalH3 { font-size: 110%; font-weight: bold }
+
+h1 { font-size: 200%; font-weight: bold }
+h2 { font-size: 150%; font-weight: bold }
+h3 { font-size: 110%; font-weight: bold }
+
+.inverseH1 {
+    color: #faf3e3;
+    background-color: #000000;
+    font-size: 200%;
+    font-weight: bold
+}
+.inverseH2 {
+    color: #faf3e3;
+    background-color: #000000;
+    font-size: 150%; font-weight: bold
+}
+
+.resumeSection {
+    text-align: left;
+    margin-bottom: 10px;
+    margin-left: 0px;
+    margin-top: 0px
+}
+
+.resumeEntry {
+    text-align: left;
+    vertical-align: top;
+    margin-bottom: 10px;
+    margin-left: 30px;
+    margin-top: 0px
+}
+
+.resumeFont {  font-family: "Times New Roman", Times, serif}
+
+.photoMat {
+    background-color: #ffffff;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    border-style: solid;
+    border-top-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 0px;
+    border-left-width: 0px
+}
+
+.photoThumb {
+    background-color: #ffffff;
+    margin-top: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    border-style: solid;
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px
+}
+
+.photoBorderSmall {
+    padding: 15px;
+    background-color: white;
+    border-style: solid;
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px
+}
+
+.photoBorderLarge {
+    padding: 55px;
+    background-color: white;
+    border-style: solid;
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px
+}
+
+.photoCaption {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.photoNumericLinks {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.paperDT {  font-weight: bold; margin-top: 20px}
+.paperDD { font-weight: normal; margin-bottom: 10px}
+.resumeTR { text-align: left; vertical-align: top}
+.spacedLI { font-weight: normal}
+
+.resumeFontSmall {
+   font-family: "Times New Roman", Times, serif ;
+   font-size: 70%
+}
+
+.noLeftMargin {
+    text-align: left;
+    vertical-align: top;
+    text-indent: 0;
+    margin-left: 0;
+    margin-top: 0px;
+    margin-bottom: 4px
+}
+
+.nonBulletList {
+    text-align: left;
+    text-indent: -2em;
+    margin-left: 2em;
+    margin-top: 0px;
+    margin-bottom: 4px
+}
+
+.nonBulletListInverse {
+    text-align: left;
+    text-indent: -2em;
+    margin-left: 2em;
+    margin-top: 0px;
+    margin-bottom: 4px
+}
+
+.floatRight { float:right; margin-left: 4px }
+
+dd {
+    font-size: 100%;
+    margin: 0 11px 1em 3em;
+    clear: both;
+    padding: 0
+}
+
+dt {
+    font-size: 100%;
+    margin: 0 11px 1em 1em;
+    clear: both;
+    padding: 0
+}
+
+
+li {
+    font-size: 100%;
+    margin: 5px 11px 5px;
+    clear: both;
+    padding: 0
+}
+
+
+p {
+	font-size: 100%;
+	margin: 0 11px 1em 0;
+	clear: both;
+	padding: 0
+}
+
+td {
+    font-size: 100%;
+}
