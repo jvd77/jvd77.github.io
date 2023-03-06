@@ -10,6 +10,7 @@ body {
     font-size: 16px;
     color: #333;
     background-color: #f5f5f2;
+    overflow: auto;
 }
 
 .container {
@@ -48,27 +49,6 @@ papertitle {
 name {
   font-size: 32px;
 }
-
-.one {
-  width: 160px;
-  height: 160px;
-  position: relative;
-}
-
-/* .two { */
-  /* width: 160px; */
-  /* height: 160px; */
-  /* position: absolute; */
-  /* transition: opacity .2s ease-in-out; */
-  /* -moz-transition: opacity .2s ease-in-out; */
-  /* -webkit-transition: opacity .2s ease-in-out; */
-/* } */
-
-/* .fade { */
-  /* transition: opacity .2s ease-in-out; */
-  /* -moz-transition: opacity .2s ease-in-out; */
-  /* -webkit-transition: opacity .2s ease-in-out; */
-/* } */
 
 .paper_hl {
   width: 100%;
@@ -228,15 +208,28 @@ footer {
   background-color: #1c1c1c;
   color: #f5f5f2;
   padding: 1px;
-  margin: 20px 0 0 0;
+  margin: 70px 0 0 0;
+}
+
+footer p {
+  font-size: 15px;
 }
 
 .about_img {
   padding:0%;
   width:25%;
-  max-width:25%;
+  /* max-width:25%; */
   vertical-align:middle;
   display:inline-block
+}
+
+.about_txt {
+  padding:0%;
+  margin-bottom:0;
+  width:70%;
+  max-width:100%;
+  vertical-align:middle;
+  display:inline-block;
 }
 
 /* Mobile layout */
@@ -262,23 +255,72 @@ footer {
     padding: 0.5rem 0;
   }
   main {
-    margin: 40px 10px;
+    margin: 20px 10px;
+  }
+  section {
+    margin-bottom: 20px;
   }
   .main {
     padding: 1rem;
   }
   .hidden-mobile {
     display: none;
-    width: 0%;
   }
   .container {
     order: 2;
     margin-top: 1rem;
   }
-  /* .about_img { */
+  .about_img {
+    display: block;
+    width: 40%;
+    margin: 0px auto 20px auto;
+    order: 1;
+  }
+  .about_txt {
+    width: 100%;
+    order: 2;
+  }
+  #about .container {
+    display: flex;
+    flex-direction: column;
+  }
+  /* .about_img img { */
     /* display: none; */
     /* width: 0%; */
   /* } */
+  /* .about_img a { */
+    /* display: none; */
+    /* width: 0%; */
+  /* } */
+}
+
+/* Smaller-screen layout */
+@media (max-width: 1110px) {
+  .header-content {
+    text-align: center;
+    margin-top: 1rem;
+  }
+  nav {
+    width: 100%;
+    flex-direction: column;
+  }
+  nav a {
+    padding: 0.5rem 0;
+    flex-direction: column;
+  }
+  main {
+    margin: 20px 10px;
+  }
+  section {
+    margin-bottom: 20px;
+  }
+  .main {
+    padding: 1rem;
+  }
+  .container {
+    order: 2;
+    margin-top: 1rem;
+  }
   /* .about_img img { */
     /* display: none; */
     /* width: 0%; */
