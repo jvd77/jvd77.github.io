@@ -46,10 +46,6 @@ papertitle {
   font-weight: 700
 }
 
-name {
-  font-size: 32px;
-}
-
 .paper_hl {
   width: 100%;
   border: 2px solid #ccc;
@@ -119,9 +115,9 @@ nav li {
   margin-left: 20px;
 }
 
-nav li:first-child {
-  margin-left: 0;
-}
+/* nav li:first-child { */
+  /* margin-left: 0; */
+/* } */
 
 nav a {
     color: #f5f5f2;
@@ -233,7 +229,7 @@ footer p {
 }
 
 /* Mobile layout */
-@media (max-width: 767px) {
+@media only screen and (max-width: 767px) {
   header {
     flex-direction: column;
     align-items: center;
@@ -249,10 +245,18 @@ footer p {
     order: 1;
     width: 100%;
     text-align: center;
+    justify-content: center;
   }
   nav a {
     display: block;
     padding: 0.5rem 0;
+  }
+  nav li {
+    list-style: none;
+    margin: 5px auto;
+  }
+  nav ul {
+    display: flex;
   }
   main {
     margin: 20px 10px;
@@ -284,6 +288,12 @@ footer p {
     display: flex;
     flex-direction: column;
   }
+  .header-content h1 {
+    font-size: 30px;
+  }
+  .header-content h2 {
+    font-size: 18px;
+  }
   /* .about_img img { */
     /* display: none; */
     /* width: 0%; */
@@ -295,49 +305,14 @@ footer p {
 }
 
 /* Smaller-screen layout */
-@media (max-width: 1110px) {
-  .header-content {
-    text-align: center;
-    margin-top: 1rem;
+@media only screen and (max-width: 1200px) and (min-width: 768px){
+  nav ul {
+    display: block;
   }
-  nav {
-    width: 100%;
-    flex-direction: column;
+  .header-content h1 {
+    font-size: 32px;
   }
-  nav a {
-    padding: 0.5rem 0;
-    flex-direction: column;
+  .header-content h2 {
+    font-size: 20px;
   }
-  main {
-    margin: 20px 10px;
-  }
-  section {
-    margin-bottom: 20px;
-  }
-  .main {
-    padding: 1rem;
-  }
-  .container {
-    order: 2;
-    margin-top: 1rem;
-  }
-  /* .about_img img { */
-    /* display: none; */
-    /* width: 0%; */
-  /* } */
-  /* .about_img a { */
-    /* display: none; */
-    /* width: 0%; */
-  /* } */
 }
-
-
-/* @media only screen and (max-width: 767px) { */
-  /* .header-content h1 { */
-    /* font-size: 24px; */
-  /* } */
-  
-  /* .header-content h2 { */
-    /* font-size: 14px; */
-  /* } */
-/* } */
