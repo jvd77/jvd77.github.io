@@ -280,7 +280,7 @@ footer p {
 }
 
 /* Mobile layout */
-@media only screen and (max-width: 767px) and (min-width: 424px) {
+@media only screen and (max-width: 767px) and (min-width: 435px) {
   header {
     flex-direction: column;
     align-items: center;
@@ -356,7 +356,7 @@ footer p {
   /* } */
 }
 /* Smaller mobile layout */
-@media only screen and (max-width: 424px) {
+@media only screen and (max-width: 435px) {
   header {
     flex-direction: column;
     align-items: center;
