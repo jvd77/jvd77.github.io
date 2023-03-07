@@ -263,6 +263,22 @@ footer p {
     color: #fae102;
 }
 
+.ct_cell a {
+  text-decoration: none;
+}
+
+.ct_cell a:link {
+    color: #001cd1;
+}
+
+.ct_cell a:visited {
+    color: #a8a803;
+}
+
+.ct_cell a:hover {
+    color: #fae102;
+}
+
 /* Mobile layout */
 @media only screen and (max-width: 767px) and (min-width: 415px) {
   header {
