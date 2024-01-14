@@ -15,6 +15,7 @@ body {
 
 .container {
     max-width: 1200px;
+    min-width: 65%;
     margin: 0 auto; /* The 'auto' is for the horizontal margins */
     padding: 0 20px;
 }
@@ -219,7 +220,8 @@ footer p {
 .about_img {
   padding:0%;
   width:25%;
-  /* max-width:25%; */
+  max-width:400px;
+  min-width:10%;
   vertical-align:middle;
   display:inline-block
 }
@@ -280,7 +282,7 @@ footer p {
 }
 
 /* Mobile layout */
-@media only screen and (max-width: 767px) and (min-width: 440px) {
+@media only screen and (max-width: 767px) and (min-width: 500px) {
   header {
     flex-direction: column;
     align-items: center;
@@ -355,8 +357,9 @@ footer p {
     /* width: 0%; */
   /* } */
 }
+
 /* Smaller mobile layout */
-@media only screen and (max-width: 440px) {
+@media only screen and (max-width: 500px) {
   header {
     flex-direction: column;
     align-items: center;
@@ -421,11 +424,10 @@ footer p {
     flex-direction: column;
   }
   .header-content h1 {
-    font-size: 1.52rem;
+    font-size: 1.7rem;
   }
   .header-content h2 {
     font-size: 1.1rem;
-    /* font-size: 1rem; */
   }
   p {
     font-size: 1.0625rem;
@@ -445,6 +447,26 @@ footer p {
   /* } */
 }
 
+/* Slightly smaller mobile layout */
+@media only screen and (max-width: 475px) {
+  .header-content h1 {
+    font-size: 1.52rem;
+  }
+}
+
+/* Smaller mobile layout */
+@media only screen and (max-width: 405px) {
+  .header-content h1 {
+    font-size: 1.32rem;
+  }
+  /* .header-content h2 { */
+    /* font-size: 1.0625rem; */
+  /* } */
+  body {
+    font-size: 0.9rem;
+  }
+}
+
 /* Tiny layout */
 @media only screen and (max-width: 345px) {
   nav {
@@ -452,9 +474,6 @@ footer p {
   }
   .container {
     padding: 0 5px;
-  }
-  body {
-    font-size: 0.9rem;
   }
   #contact .contact_line {
     font-size: 0.8rem;
@@ -468,6 +487,12 @@ footer p {
   }
   .ct_cell {
     display: block;
+  }
+  .about_img {
+    display: block;
+    width: 60%;
+    margin: 0px auto 20px auto;
+    order: 1;
   }
 }
 
